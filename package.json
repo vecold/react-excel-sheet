@@ -1,6 +1,6 @@
 {
-  "name": "@zhenliang/sheet",
-  "version": "0.1.53",
+  "name": "react-excel-sheet",
+  "version": "0.0.1",
   "description": "A react library developed with dumi",
   "license": "MIT",
   "module": "dist/index.js",
@@ -75,8 +75,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "authors": [
-    "fizz.zhou@ap.jll.com"
-  ]
+  }
 }
