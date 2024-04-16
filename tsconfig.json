@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "@zhenliang/sheet": [
+        "src"
+      ],
+      "@zhenliang/sheet/*": [
+        "src/*",
+        "*"
+      ],
+      "@zhenliang/sheet/hooks": [
+        "src/hooks"
+      ],
+      "@zhenliang/sheet/type": [
+        "src/type"
+      ]
+    }
+  },
+  "include": [
+    ".dumirc.ts",
+    "src/**/*"
+  ]
+}
